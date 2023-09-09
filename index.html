@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forbes Registration Form</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="./img/logo.jpg">
+</head>
+<body>
+    <div class="container">
+        <div class="form-title">
+            <div>
+                <img src="./img/logo.jpg" alt="logo">
+            </div>
+            <div>
+                <h1>Forbes Royal College Application Form</h1>
+            </div>
+        </div>
+        <div class="form">
+            <form action="submit">
+                <div class="form-heading">
+                    <h3>*Applicants</h3>
+                </div>
+                <div class="form-main">
+                    <div class="form-input">
+                        <label for="fname">First name</label>
+                        <input type="text" id="fname" name="fname" class="input">
+                    </div>
+                    <div class="form-input">
+                        <label for="sname">Surname</label>
+                        <input type="text" id="sname" name="sname" class="input">
+                    </div>
+                    <div class="form-input">
+                        <label for="phone">Phone No</label>
+                        <input type="tel" id="phone" name="phone" class="input">
+                    </div>
+                    <div class="form-input">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" class="input">
+                    </div>
+                    <div class="form-input">
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" id="dob" name="dob" class="input">
+                    </div>
+                    <div class="form-input">
+                        <label for="gender">Gender</label>
+                        <select name="gender" id="gender" class="input">
+                          <option value="male">Male</option>
+                          <option value="female">Female</option>
+                        </select>
+                    </div>
+                    <div class="form-textarea">
+                        <label for="address">Residential Address of the Applicant</label>
+                        <input type="address" id="address" name="address" placeholder="Please type your address here...">
+                    </div>
+                </div>
+            </form>
+            <form action="submit">
+                <div class="form-heading">
+                    <h3>*Parent/Guardian</h3>
+                </div>
+                <div class="form-main">
+                    <div class="form-input">
+                        <label for="flname">Full Name</label>
+                        <input type="text" id="flname" name="flname" class="input">
+                    </div>
+                    <div class="form-input">
+                        <label for="contact">Contact No</label>
+                        <input type="number" id="contact" name="contact" class="input">
+                    </div>
+                    <div class="form-input">
+                        <label for="emailp">Email</label>
+                        <input type="email" id="emailp" name="emailp" class="input">
+                    </div>
+                    <div class="form-input">
+                        <label for="sname">Name of last School Attended</label>
+                        <input type="text" id="sname" name="sname" class="input">
+                    </div>
+                    <div class="form-input">
+                        <label for="grade">Grade</label>
+                        <select name="grade" id="grade" class="input">
+                          <option value="grade7">Grade 7</option>
+                          <option value="grade8">Grade 8</option>
+                          <option value="grade9">Grade 9</option>
+                          <option value="grade10">Grade 10</option>
+                          <option value="grade11">Grade 11</option>
+                          <option value="grade12">Grade 12</option>
+                        </select>
+                    </div>
+                    <div class="form-textarea">
+                        <label for="address">Residential Address of the Parent/Guardian</label>
+                        <input type="address" id="address" name="address" placeholder="Please type your address here...">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="form-btn">
+            <button type="submit" class="formBtn">Apply Now</button>
+        </div>
+    </div>
+</body>
+</html>

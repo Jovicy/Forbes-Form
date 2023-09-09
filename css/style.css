@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+
+:root {
+    --heading-color: #FF7162;
+    --default-color: #767676;
+    --form-bg: #FFF1F1;
+    --color-white: #ffffff;
+    --color-black: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 40px;
+    overflow-x: hidden;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: var(--default-color);
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.form-title h1 {
+    color: var(--heading-color);
+    font-weight: 800;
+    font-size: 2.625rem;
+}
+
+.form-title p {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 2rem;
+}
+
+/* form */
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-main {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.form-heading h3 {
+ color: var(--color-black);
+}
+
+.form-textarea {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: var(--color-black);
+    font-family: inherit;
+}
+
+.form-textarea input {
+    width: 100%;
+    background: var(--color-white);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    color: var(--color-black);
+    font-family: inherit;
+}
+
+label {
+    color: var(--default-color);
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    background-color: var(--form-bg);
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.input {
+    background: var(--color-white);
+    border-radius: 30px;
+    border: none;
+    width: 18rem;
+    height: 2.5rem;
+    padding: 10px;
+    color: var(--color-black);
+    font-family: inherit;
+}
+
+/* btn */
+.formBtn {
+    display: flex;
+    width: 15.25rem;
+    height: 2.5rem;
+    padding: 1.5rem 2.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 50px;
+    border: none;
+    background-color: var(--heading-color);
+    box-shadow: 6px 6px 20px 15px rgba(192, 99, 99, 0.30);
+    color: var(--color-white);
+    font-weight: 800;
+    font-size: 1.125rem;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+@media screen and (max-width: 800px) {
+    .form-input {
+        width: 100%;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .form-title h1 {
+        font-size: 1.125rem;
+        text-align: center;
+    }
+}
