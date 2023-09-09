@@ -49,7 +49,13 @@ body {
 form{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 70px;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .form-main {
@@ -118,7 +124,6 @@ label {
     display: flex;
     width: 15.25rem;
     height: 2.5rem;
-    padding: 1.5rem 2.25rem;
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
@@ -149,5 +154,10 @@ label {
     .form-title h1 {
         font-size: 1.125rem;
         text-align: center;
+    }
+
+    .form-btn {
+        display: flex;
+        justify-content: center;
     }
 }
