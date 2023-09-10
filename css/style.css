@@ -45,6 +45,10 @@ body {
     line-height: 2rem;
 }
 
+.logo img{
+    width: 100%;
+}
+
 /* form */
 form{
     display: flex;
