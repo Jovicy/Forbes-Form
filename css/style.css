@@ -70,6 +70,8 @@ form{
 
 .form-heading h3 {
  color: var(--color-black);
+ text-transform: uppercase;
+ letter-spacing: 1px;
 }
 
 .form-textarea {
@@ -112,7 +114,7 @@ label {
 }
 
 .form-input label {
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 14px;
 }
 
@@ -125,6 +127,11 @@ label {
     padding: 10px;
     color: var(--color-black);
     font-family: inherit;
+}
+
+.note-section p {
+    font-family: cursive;
+    color: #FF7162;
 }
 
 /* btn */
